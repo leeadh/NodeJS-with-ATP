@@ -27,5 +27,5 @@ There are a few folders we need to take note here
  i.e DIRECTORY="/nodeJS_ATP/oradbInstantClient/network/admin/<YOUR WALLET NAME>"
 ```
 
-
+![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/walletlocation.PNG)
 

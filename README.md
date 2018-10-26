@@ -32,13 +32,13 @@ There are a few folders we need to take note here
  i.e DIRECTORY="/nodeJS_ATP/oradbInstantClient/network/admin/<YOUR WALLET NAME>"
 ```
 
-![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/walletlocation.PNG)
+![capture](https://user-images.githubusercontent.com/15122358/47579070-980e1800-d97d-11e8-9079-a57774d793ab.PNG)
 
 4) Now do ```export LD_LIBRARY_PATH=/home/opc/nodeJS_ATP/oradbInstantClient/instantclient_12_2```
 
 5) Let us change our DB config file and make the necessary changes to your admin and password. ```vi dbconfig```. Change to your necessary connection details, password and admin details
 
-![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/connection%20details.PNG)
+![capture](https://user-images.githubusercontent.com/15122358/47579089-a6f4ca80-d97d-11e8-988a-9fc587cee605.PNG)
 
 5) Go back to file directory ```cd ~/nodeJS_ATP```
 
@@ -56,4 +56,6 @@ There are a few folders we need to take note here
 
 Your application should be serving as below
 
-![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/screen.PNG)
+![capture](https://user-images.githubusercontent.com/15122358/47579104-af4d0580-d97d-11e8-97e8-9f3118a79294.PNG)
+
+Now try doing insert into database and play with the application!

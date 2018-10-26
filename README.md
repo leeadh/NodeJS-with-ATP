@@ -29,3 +29,9 @@ There are a few folders we need to take note here
 
 ![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/walletlocation.PNG)
 
+4) Now do ```export LD_LIBRARY_PATH=/home/opc/nodeJS_ATP/oradbInstantClient/instantclient_12_2```
+
+5) Let us change our DB config file and make the necessary changes to your admin and password. ```vi dbconfig```. Change to your necessary connection details, password and admin details
+
+
+

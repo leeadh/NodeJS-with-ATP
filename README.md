@@ -4,6 +4,11 @@
 This is a demo to showcase how to use Autonomous Transaction Processing (ATP) and connect with Node JS. This is using Node JS to render a simple HTML table and a simple post function which will write and commit to ATP database. The technology stack mainly used is Node JS which serves as our server and EJS as our templating engine. 
 
 # Pre-requisites #
+1) Go to sql developer, connect to your ATP instance and execute the below script
+
+https://github.com/leeadh/NodeJS-with-ATP/blob/master/sqlscript.sql
+
+# Steps to connect to your ATP demo #
 1) Log into your assigned ATP VM in the console using putty/ssh
 
 2) There would be a folder called nodeJS_ATP. The folder structure is as shown below. 
@@ -35,3 +40,20 @@ There are a few folders we need to take note here
 
 ![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/connection%20details.PNG)
 
+5) Go back to file directory ```cd ~/nodeJS_ATP```
+
+6) Execute the following commands
+
+```npm install```
+```npm install oracledb --save```
+```npm install express-flash-messages```
+
+7) Finally lets run our node server. 
+
+``` node server.js```
+
+8) go to your ip address:5000
+
+Your application should be serving as below
+
+![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/screen.PNG)

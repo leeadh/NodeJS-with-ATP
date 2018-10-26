@@ -10,6 +10,16 @@ This is a demo to showcase how to use Autonomous Transaction Processing (ATP) an
 
 ![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/overview.png)
 
+There are a few folders we need to take note here
+
+ Markup : * wallet_ADRDEMO: This is our wallet which contains our unzipped ATP credentials. We will be changing this later to connect to your own ATP demo
+  Markup : * dbconfig: This is our ATP connection admin/password. We will be changing this later to connect to your own ATP demo
+  Markup : * OradbInstaClient: This is our instaclient needed to connect to ATP
+  Markup : * retrieveresultsJS/addresultsHS: This is our nodeJS file which will do a retrieval/add RESTFUL service from/to ATP
+  Markup : * OradbInstaClient: This is our instaclient needed to connect to ATP
+  
+ 
+
 
 
 

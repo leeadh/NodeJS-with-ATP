@@ -19,7 +19,13 @@ There are a few folders we need to take note here
 * OradbInstaClient: This is our instaclient needed to connect to ATP
 
  
-
+ 3) Unzip your wallet under the nodeJS_ATP folder. Now cd to your wallet location. i.e in this example ```cd wallet_ADRDEMO```. 
+ 
+ Now do vi sqlnet.ora and change the Directory to be your wallet location. 
+ 
+ ```
+ i.e DIRECTORY="/nodeJS_ATP/oradbInstantClient/network/admin/<YOUR WALLET NAME>"
+```
 
 
 

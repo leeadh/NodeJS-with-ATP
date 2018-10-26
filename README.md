@@ -33,5 +33,5 @@ There are a few folders we need to take note here
 
 5) Let us change our DB config file and make the necessary changes to your admin and password. ```vi dbconfig```. Change to your necessary connection details, password and admin details
 
-
+![capture](https://github.com/leeadh/NodeJS-with-ATP/blob/master/connection%20details.PNG)
 

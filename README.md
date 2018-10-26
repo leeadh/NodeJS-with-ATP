@@ -12,17 +12,12 @@ This is a demo to showcase how to use Autonomous Transaction Processing (ATP) an
 
 There are a few folders we need to take note here
 
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* wallet_ADRDEMO: This is our wallet which contains our unzipped ATP credentials. We will be changing this later to connect to your own ATP demo
+* dbconfig: This is our ATP connection admin/password. We will be changing this later to connect to your own ATP demo
+* dbconfig: OradbInstaClient: This is our instaclient needed to connect to ATP
+* retrieveresultsJS/addresultsHS: This is our nodeJS file which will do a retrieval/add RESTFUL service from/to ATP
+* OradbInstaClient: This is our instaclient needed to connect to ATP
 
- Markup : * wallet_ADRDEMO: This is our wallet which contains our unzipped ATP credentials. We will be changing this later to connect to your own ATP demo
-  Markup : * dbconfig: This is our ATP connection admin/password. We will be changing this later to connect to your own ATP demo
-  Markup : * OradbInstaClient: This is our instaclient needed to connect to ATP
-  Markup : * retrieveresultsJS/addresultsHS: This is our nodeJS file which will do a retrieval/add RESTFUL service from/to ATP
-  Markup : * OradbInstaClient: This is our instaclient needed to connect to ATP
-  
  
 
 

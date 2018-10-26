@@ -13,7 +13,7 @@ https://github.com/leeadh/NodeJS-with-ATP/blob/master/sqlscript.sql
 
 2) There would be a folder called nodeJS_ATP. The folder structure is as shown below. 
 
-![capture](https://raw.githubusercontent.com/leeadh/NodeJS-with-ATP/master/overview.png)
+![capture](https://user-images.githubusercontent.com/15122358/47579014-76ad2c00-d97d-11e8-838a-e40357259b4a.png)
 
 There are a few folders we need to take note here
 
